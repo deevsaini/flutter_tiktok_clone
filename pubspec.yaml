@@ -1,0 +1,45 @@
+name: deevstiktok
+description: A new Flutter application.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.4+5
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  rename: ^2.0.1
+  video_player: ^2.1.1
+  percent_indicator: ^3.0.1
+  carousel_slider: ^4.0.0-nullsafety.0
+  flutter_phoenix: ^1.0.0
+  google_fonts: ^2.1.0
+  flutter_bloc: ^8.0.1
+
+  animation_wrappers: ^0.0.4
+  google_mobile_ads: ^0.13.2
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/videos/
+    - assets/images/
+    - assets/icons/
+    - assets/user/
+    - assets/thumbnails/dance/
+    - assets/thumbnails/lol/
+    - assets/thumbnails/food/
